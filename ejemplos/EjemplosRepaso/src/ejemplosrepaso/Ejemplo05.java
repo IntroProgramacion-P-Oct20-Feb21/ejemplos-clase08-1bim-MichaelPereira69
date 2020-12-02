@@ -33,7 +33,8 @@ public class Ejemplo05 {
           Salirse = Salirse.toLowerCase();
           switch (Salirse){
                 case "si":case "s":
-                    bandera = false;
+                bandera = false;
+                break;
             }
         }
     }
