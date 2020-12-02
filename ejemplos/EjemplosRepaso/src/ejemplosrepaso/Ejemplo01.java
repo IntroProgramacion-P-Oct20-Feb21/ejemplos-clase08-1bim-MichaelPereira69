@@ -21,7 +21,6 @@ public class Ejemplo01 {
         String ciudad = null;
         String pais = null;
         
-        
         System.out.println("ingrese ciudad");
         ciudad= entrada.nextLine();
         System.out.println("ingrese el pais");
