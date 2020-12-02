@@ -49,8 +49,7 @@ public class Ejemplo03 {
         }           
      }
         
-        System.out.printf("Usted seleccionó: %s\n"
-                + "no existe esta region\t", region);
+        System.out.printf("Usted seleccionó: %s\n", region);
     }
     
 }
