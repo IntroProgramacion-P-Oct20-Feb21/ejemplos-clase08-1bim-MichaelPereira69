@@ -20,10 +20,13 @@ public class Ejemplo01 {
         Scanner entrada = new Scanner(System.in);
         String ciudad = null;
         String pais = null;
-        System.out.printf("%s", ciudad +", loja ciudad "
-                + "\n del pais: "
-                + "\n\t "
-                + "Ecuador \n\t", pais);
+        
+        
+        System.out.println("ingrese ciudad");
+        ciudad= entrada.nextLine();
+        System.out.println("ingrese el pais");
+        pais = entrada.nextLine();
+        System.out.printf("%s, ciudad\ndel pais: \n\t%s . \n ", ciudad, pais);
     }
     
 }
