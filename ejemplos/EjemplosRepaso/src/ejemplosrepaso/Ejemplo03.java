@@ -40,13 +40,17 @@ public class Ejemplo03 {
                     region = "Región Amazónica";
                 }else{
                     if (tipoRegion==4) {
-                        region = "Región Insular";
+                    }else{
+                    if (tipoRegion>=5) {
+                        region = "Error no existe reguion";
                     }
                 }
             }
-        }
+        }           
+     }
         
-        System.out.printf("Usted seleccionó: %s\n", region);
+        System.out.printf("Usted seleccionó: %s\n"
+                + "no existe esta region\t", region);
     }
     
 }
